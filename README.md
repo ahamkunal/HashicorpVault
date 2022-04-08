@@ -105,7 +105,7 @@ I've written this wrapper so that you can switch to setting up Vault Enterprise 
 1. Put at valid Vault Enterprise license file into the base directory of this repository (i.e. next to this README.md file), and call it `vault-ent.hclic`.
 2. In `main.tf`, *uncomment* the 'enterprise' section in the module.vault-starter resource (lines 35-38)
 3. In `main.tf`, *comment out* the 'open-source' section in the module.vault-starter resource (lines 40-42)
-4. Run `terraform init` again (or rather, just follow the instructions from the beginning again)..
+4. Run `terraform init` again (or rather, just follow the instructions from the beginning again).
 
 ----------------------------
 
